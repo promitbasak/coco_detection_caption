@@ -31,9 +31,9 @@ if __name__ == "__main__":
     
 
     print("Downloading model weights ...")
-    url = "https://drive.google.com/file/d/1TbT1Bci49CavAk0sSJKWnoyHuB6qHYst/view?usp=share_link"
+    file_id = "1TbT1Bci49CavAk0sSJKWnoyHuB6qHYst"
     output = "./rf_model.pth"
-    gdown.download(url, output, quiet=False)
+    gdown.download(id=file_id, output=output, quiet=False)
 
     # Image captioning 
 
